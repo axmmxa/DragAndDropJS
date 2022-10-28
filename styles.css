@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+}
+
+.drag-area {
+    background-color: gray;
+    border: 2px solid black;
+    height: 200px;
+    width: 800px;
+    margin-bottom: 10px;
+}
+
+
+
+.todo {
+    background-color: white;
+    height: 30px;
+    width: 80px;
+    border: 2px solid black;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
